@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LaunchPadjoeyk.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace LaunchPadjoeyk.ViewModels
 {
     class MainWindowViewModel
     {
+        private MainWindowModel Model;
     }
 }
