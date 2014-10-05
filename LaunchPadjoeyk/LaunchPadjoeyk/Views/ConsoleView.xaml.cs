@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LaunchPadjoeyk.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace LaunchPadjoeyk.Views
         public ConsoleView()
         {
             InitializeComponent();
+            this.DataContext = new MainWindowViewModel();
         }
     }
 }
