@@ -4,11 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Caliburn.Micro;
 
 
 namespace LaunchPadjoeyk.ViewModels
 {
-    class ConsoleViewModel
+    class ConsoleViewModel : PropertyChangedBase
     {
         private ConsoleModel Model;
     }
